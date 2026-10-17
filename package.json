@@ -1,0 +1,27 @@
+{
+  "name": "rag-project",
+  "version": "1.0.0",
+  "description": "A lightweight Retrieval-Augmented Generation (RAG) system with Node.js and Gemini",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "reindex": "node src/indexer.js",
+    "test": "node test-query.js"
+  },
+  "keywords": [
+    "rag",
+    "gemini",
+    "vector-search",
+    "embeddings",
+    "nodejs"
+  ],
+  "author": "Shaswat",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^2.30.0",
+    "dotenv": "^16.4.7",
+    "pdf-parse": "^1.1.1",
+    "xlsx": "^0.18.5"
+  }
+}
